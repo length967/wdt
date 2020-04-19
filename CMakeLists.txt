@@ -75,6 +75,9 @@ set (FOLLY_CPP_SRC
 "${FOLLY_SOURCE_DIR}/folly/hash/detail/Crc32cDetail.cpp"
 "${FOLLY_SOURCE_DIR}/folly/hash/detail/Crc32CombineDetail.cpp"
 "${FOLLY_SOURCE_DIR}/folly/ScopeGuard.cpp"
+
+# FIX 199 HERE
+"${FOLLY_SOURCE_DIR}/folly/lang/CString.cpp"
 )
 
 # WDT's library proper - comes from: ls -1 *.cpp | grep -iv test
